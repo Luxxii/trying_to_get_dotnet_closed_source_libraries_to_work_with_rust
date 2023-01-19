@@ -1,0 +1,19 @@
+[package]
+name = "rust_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bindgen = "0.63.0"
+libc = "0.2.139"
+# nethost-sys = "0.6.2"
+# netcorehost = "0.13.1"
+# hostfxr-sys = "0.5.0"
+# coreclr-hosting-shared = "0.1.4"
+
+
+[build-dependencies]
+cc = "1.0.78"
+pkg-config = "0.3.26"

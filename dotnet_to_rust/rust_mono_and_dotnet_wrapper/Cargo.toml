@@ -1,0 +1,13 @@
+[package]
+name = "rust_mono_wrapper"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hostfxr-sys = "0.5.0"
+nethost-sys = "0.6.2"
+coreclr-hosting-shared = "0.1.4"
+netcorehost = "0.13.1"
+# wrapper-mono something something. I commented this out...
